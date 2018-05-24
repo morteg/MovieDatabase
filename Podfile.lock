@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (4.7.2)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Realm (3.5.0):
+    - Realm/Headers (= 3.5.0)
+  - Realm/Headers (3.5.0)
+  - RealmSwift (3.5.0):
+    - Realm (= 3.5.0)
+  - Result (3.2.4)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - YouTubePlayer-Swift (1.0)
+
+DEPENDENCIES:
+  - Moya (~> 11.0)
+  - RealmSwift
+  - SDWebImage
+  - YouTubePlayer-Swift (~> 1.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Moya
+    - Realm
+    - RealmSwift
+    - Result
+    - SDWebImage
+    - YouTubePlayer-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  Realm: 0378021c424e4e2bd6a0e63b27881e929d9b9ad1
+  RealmSwift: 3322562622fda2ad596985ead4d8d8be30cf838c
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  YouTubePlayer-Swift: ae82f4bcb504162a872b852596a9dc1fa3828c34
+
+PODFILE CHECKSUM: d836fc0b25cda7d3b123dd8dc53af33dabe690a8
+
+COCOAPODS: 1.5.0
