@@ -108,7 +108,7 @@ class MovieDetailsController: UITableViewController {
         if isOfflineMode {
             fetchMovieDetailsOffline()
         } else {
-            fetchMovieDetailsOffline()
+            fetchMovieDetailsOnline()
         }
     }
     
