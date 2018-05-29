@@ -30,18 +30,17 @@ class  MovieDetails : Object, Decodable {
     override static func primaryKey() -> String? {
         return "id"
     }
-    
-    
+        
     required init() {
         super.init()
     }
     
     required init(realm: RLMRealm, schema: RLMObjectSchema) {
-        super.init()
+        super.init(realm: realm, schema: schema)
     }
     
     required init(value: Any, schema: RLMSchema) {
-        super.init()
+        super.init(value: value, schema: schema)
     }
     
     convenience init(id: Int, budget: Int, genres: List<Genre>, productionCountries: List<ProductionCountry>, revenue: Int, videos: List<MovieVideo>) {
